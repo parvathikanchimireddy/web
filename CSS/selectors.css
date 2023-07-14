@@ -1,0 +1,72 @@
+/*1. What is selectors ?
+
+# selectors are used to select html elements based on tag name, class name and id names.
+
+1.Element Selector
+2.Group Selector
+3.Class Selector
+4.Generic Class Selector
+5.Id Selector
+6.Universal Selector
+
+1.Element selector : We select only onr type of element.
+
+h1
+{
+    font-family: chiller;
+    font-size: 30px;
+    color: brown;
+}
+
+p
+{
+    font-family: algerian;
+    font-size: 30px;
+    color: green;
+} 
+
+2.Group selector : We select more than one element. 
+
+a,h1
+{
+    font-family: chiller;
+    font-size: 30px;
+    color:blue;
+} 
+
+3.Class selector : selects only the perticular tags which is having class name.
+h1.n
+{
+    font-family: chiller;
+    font-size: 30px;
+    color:darkmagenta;
+}
+
+4.Generic class selector : selects all the tags which is the class name.
+
+.n
+{
+    font-family: algerian;
+    font-size: 30px;
+    color:red;
+} 
+
+5.Id selector : selects all the tags which is having the Id name.
+
+#s
+{
+    color:green;
+    font-style: italic;
+}
+
+6.Universal selector : It selects all the tags. It is indicated by *(star) symbol. */
+
+*
+{
+    color: blue;
+}
+
+
+
+
+
