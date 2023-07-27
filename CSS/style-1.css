@@ -1,0 +1,84 @@
+body,html
+{
+   width: 100%;
+   padding: 0px;
+   margin: 0px;
+   font-family: 'segoo UI' 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner
+{
+    height: 900px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://tse3.explicit.bing.net/th?id=OIP.ac8_3S3xLspq_imzGv01rgHaE8&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    position: center cente;
+    background-size: 100% 100%;
+}
+.navbar
+{
+    background-color:aqua;
+    /*padding-left: 20px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;*/
+    padding: 19px 20px;
+    word-spacing: 30px;
+}
+.nav-item,.navbar-nav
+{
+    display: inline;
+}
+.navbar-nav
+{
+    margin-left: 177px;
+}
+.nav-link,.navbar-brand  
+{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold
+}
+.nav-link
+{
+    margin-left: 20px;
+    transition: color .5s;
+}
+.nav-link:hover
+{
+    color: limegreen;
+}
+.navbar-brand
+{
+font-size: 25px;
+letter-spacing: 1px;
+margin-left: 60px
+}
+.navbar-brand span
+{
+    color: orange;
+    font-size: 28px;
+}
+.banner-card
+{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    width: 45%;
+    border-top: 5px solid green;
+    margin: 180px auto;
+    padding: 20px;
+}
+.banner-btn
+{
+    border: 2px solid green;
+    padding: 10px 35px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    margin-left: 250px;
+}
+.banner-btn:hover
+{
+    background-color: green;
+
+}
